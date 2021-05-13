@@ -1,0 +1,108 @@
+.contact {
+  width: 100%;
+  height: 90vh;
+  background: #2c333a;
+  position: relative;
+  top: 60vh;
+  border-top: 5px solid orangered;
+}
+
+#contact-text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 10rem;
+  text-align: center;
+}
+
+.contact-main {
+  display: flex;
+}
+.main-left {
+  width: 50%;
+  height: 60vh;
+  position: relative;
+  top: 10rem;
+  @include flexCenter();
+}
+.main-right {
+  width: 50%;
+  height: 60vh;
+  position: relative;
+  top: 13.5rem;
+}
+#cont {
+  font-size: 25px;
+}
+li {
+  display: flex;
+  .fa-phone-alt,
+  .fa-envelope,
+  .fa-linkedin-in {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+}
+.contact-form {
+  width: 70%;
+  height: 70%;
+  .name {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  #btn {
+    background: orange;
+    color: #fff;
+    &:focus {
+      outline-style: none;
+    }
+  }
+}
+#first-name,
+#last-name {
+  width: 50%;
+  height: 2rem;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  border: none;
+  &:focus {
+    outline-style: none;
+  }
+}
+#email,
+#company,
+#message,
+#btn {
+  width: 89%;
+  height: 2rem;
+  margin: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: none;
+  &:focus {
+    outline-style: none;
+  }
+}
+#message {
+  height: 5rem;
+  &::placeholder {
+    padding-top: 10px;
+  }
+}
+::-webkit-input-placeholder {
+  padding-left: 20px;
+}
+#contactUs {
+  margin-bottom: 10rem;
+  font-size: 30px;
+}
+
+.animated__fadeInRight {
+  animation-delay: 2s;
+}
+#contact-list {
+  display: block;
+}

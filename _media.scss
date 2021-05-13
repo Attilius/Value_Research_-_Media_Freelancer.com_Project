@@ -1,0 +1,61 @@
+@media (max-width: 1034px) {
+  .intro-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 885px) {
+  .intro-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 780px) {
+  .intro-text {
+    font-size: 25px;
+    display: grid;
+  }
+}
+@media (max-width: 700px) {
+  .intro-text {
+    font-size: 25px;
+    display: grid;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+@media (max-width: 625px) {
+  .intro-text {
+    font-size: 25px;
+    display: grid;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .intro-text {
+    font-size: 25px;
+    display: grid;
+  }
+  header {
+    padding: 40px 25px;
+    .logo {
+      left: 1rem;
+    }
+    .menu-btn {
+      right: 2rem;
+    }
+  }
+}
+@media (max-width: 560px) {
+  
+  .intro-text {
+    display: none;
+  }
+  .intro-text2 {
+    @include flexCenter();
+    position: relative;
+    top: -2rem;
+    left: -6rem;
+  }
+}

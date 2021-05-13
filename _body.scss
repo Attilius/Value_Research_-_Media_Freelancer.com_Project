@@ -1,0 +1,14 @@
+
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    background: url(https://cdn.ihsmarkit.com/www/blog/ra-global-business-527035084-post.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;;
+  }
